@@ -1,0 +1,129 @@
+@charset "utf8";
+
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:wght@100 & family= Lagosta & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Lobster&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+.container{
+    margin-top: 15px;
+    border: 1px solid black;
+    width: 850px;
+    margin: -20px auto 0px auto;
+    padding: 3px;
+    box-shadow: 10px 10px 10px gray;
+  
+  
+}
+
+.icon img{
+    width: 30px;
+    height: 30px;
+}
+
+#dados {
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(51, 149, 206);
+  
+
+}
+
+.icon{
+    width: 70%;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+     text-transform: uppercase;
+}
+h5{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14pt;
+}
+h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17pt;
+    font-weight: bold; 
+}
+p{
+    text-indent: 7px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+#sep{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dashed blue;
+    border-top: 2px dashed blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.se1{
+   
+    width: 50%;
+    text-align: justify;
+    padding-right: 5px;
+}
+
+.se2{
+  
+    width: 40%;
+}
+.se1 h3{
+    text-align: center;
+}
+.se2 h3{
+    text-align: center;
+}
+#ex{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.e1{
+    width: 45%;
+    text-align:justify;
+   
+}
+.e2{
+    width:45%;
+    text-align: justify;
+   
+}
+.rod{
+    background-color: black;
+    height: 20px;
+}
+
+.int{
+    margin-top:10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.rede img{
+    width: 40px;
+    height:40px;
+}
+.cope{
+    display: flex;
+    border-bottom: 2px dashed blue;
+    justify-content: space-around;
+    align-items: center;
+}
+.cope img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
